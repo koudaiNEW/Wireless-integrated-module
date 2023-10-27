@@ -1,0 +1,14 @@
+Load "d:\\project\\8_远传表头\\Working_Test\\Remote_meter_test\\Objects\\Remote_meter.axf" 
+* JLink Info: Device "CORTEX-M0+" selected.
+Set JLink Project File to "d:\project\8_远传表头\Working_Test\Remote_meter_test\JLinkSettings.ini"* JLink Info: Device "CORTEX-M0+" selected.
+ 
+JLink info:
+------------
+DLL: V7.54d, compiled Sep 28 2021 16:14:07
+Firmware: J-Link V9 compiled May  7 2021 16:26:12
+Hardware: V9.40
+S/N : 69406458 
+Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
+ 
+Error: Flash Download failed  -  Target DLL has been cancelled
+Flash Load finished at 09:15:23

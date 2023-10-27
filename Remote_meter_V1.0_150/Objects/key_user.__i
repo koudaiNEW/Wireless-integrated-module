@@ -1,0 +1,7 @@
+-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\driver\inc -I..\mcu\common -I.\src\inc
+-I D:\project\8_远传表头\Working_Test\Remote_meter_V1.0_150\RTE
+-I D:\project\8_远传表头\Working_Test\Remote_meter_V1.0_150\RTE\Device\HC32L170JATA
+-I D:\keil\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I D:\keil\PACK\HDSC\HC32L17X\1.0.0\Device\Include
+-D__UVISION_VERSION="515" -D_RTE_
+-o .\objects\key_user.o --omf_browse .\objects\key_user.crf --depend .\objects\key_user.d "src\key_user.c"

@@ -1,0 +1,7 @@
+--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork 
+-I D:\project\8_远传表头\Working_Test\Remote_meter_V1.0_150\RTE
+-I D:\project\8_远传表头\Working_Test\Remote_meter_V1.0_150\RTE\Device\HC32L170JATA
+-I D:\keil\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I D:\keil\PACK\HDSC\HC32L17X\1.0.0\Device\Include
+--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1"
+--list .\listings\startup_hc32l17x.lst --xref -o .\objects\startup_hc32l17x.o --depend .\objects\startup_hc32l17x.d "RTE\Device\HC32L170JATA\startup_hc32l17x.s"
